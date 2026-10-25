@@ -1,0 +1,13 @@
+# Dependencias y compilados
+node_modules/
+dist/
+out/
+.out/
+.preview/
+*.log
+.DS_Store
+Thumbs.db
+
+# ⚠️ Tu libro personal: personajes, fotos, recuerdos y el PDF.
+# Esta carpeta NUNCA se sube a GitHub. El repositorio público solo lleva el ejemplo.
+private/

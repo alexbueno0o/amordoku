@@ -1,0 +1,379 @@
+/*
+ * Maquetación del libro. Todas las medidas en milímetros para que la
+ * impresión salga exacta (formato 127 × 190,5 mm, como el original).
+ */
+
+:root {
+  --page-w: 127mm;
+  --page-h: 190.5mm;
+  --ink: #1d1b22;
+  --font-title: 'Outfit', 'Futura', sans-serif;
+  --font-serif: 'Crimson Pro', Georgia, serif;
+  --font-slab: 'Roboto Slab', Rockwell, serif;
+  --font-script: 'Kaushan Script', cursive;
+  --font-cond: 'Oswald', 'Arial Narrow', sans-serif;
+  --font-hand: 'Caveat', cursive;
+}
+
+.book-page {
+  width: var(--page-w);
+  height: var(--page-h);
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  background: #ffffff;
+  color: var(--ink);
+  font-family: var(--font-serif);
+  flex: none;
+}
+
+.book-page.bleed {
+  width: calc(var(--page-w) + 6mm);
+  height: calc(var(--page-h) + 6mm);
+  padding: 3mm;
+}
+
+.book-page * {
+  box-sizing: border-box;
+}
+
+.page-number {
+  position: absolute;
+  bottom: 6mm;
+  font-family: var(--font-title);
+  font-weight: 700;
+  font-size: 9pt;
+}
+.page-number.left {
+  left: 9mm;
+}
+.page-number.right {
+  right: 9mm;
+}
+
+/* ------------------------------------------------------------- título */
+.case-title {
+  position: absolute;
+  top: 9mm;
+  left: 6mm;
+  right: 6mm;
+  text-align: center;
+  font-family: var(--font-title);
+  font-weight: 800;
+  font-size: 15.5pt;
+  line-height: 1.05;
+  letter-spacing: -0.01em;
+}
+.case-subtitle {
+  position: absolute;
+  top: 17mm;
+  left: 8mm;
+  right: 8mm;
+  text-align: center;
+  font-family: var(--font-serif);
+  font-size: 9.6pt;
+  line-height: 1.18;
+}
+
+/* ------------------------------------------------------------ polaroid */
+.polaroid {
+  position: absolute;
+  background: #ffffff;
+  border: 0.25mm solid #2a2830;
+  box-shadow: 0.9mm 0.9mm 0 rgba(40, 30, 50, 0.22);
+  padding: 1.6mm 1.6mm 0 1.6mm;
+}
+.polaroid .photo {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border: 0.25mm solid #2a2830;
+  overflow: hidden;
+  background: #ddd;
+}
+.polaroid .photo svg {
+  width: 100%;
+  height: 100%;
+}
+.polaroid .name {
+  font-family: var(--font-script);
+  text-align: center;
+  white-space: nowrap;
+  overflow: visible;
+  color: #111;
+}
+.polaroid.victim {
+  background: #f6d9dc;
+}
+
+/* ---------------------------------------------------------- tarjeta de pista */
+.clue-card {
+  position: absolute;
+  border-radius: 4.2mm;
+  padding: 1.4mm 2mm 1.6mm;
+  text-align: center;
+  font-family: var(--font-slab);
+  font-weight: 400;
+  line-height: 1.22;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1f1d24;
+}
+.clue-card b {
+  font-weight: 700;
+}
+.clue-card.victim-card b:first-child {
+  font-weight: 700;
+}
+
+/* --------------------------------------------------- pista global (lupa) */
+.global-clue {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 2mm;
+  border-radius: 6mm;
+  padding: 1.6mm 4mm 1.6mm 9mm;
+  font-family: var(--font-slab);
+  font-size: 7.6pt;
+  line-height: 1.2;
+  text-align: center;
+}
+.global-clue .lens {
+  position: absolute;
+  left: -2.5mm;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10mm;
+  height: 10mm;
+}
+
+/* --------------------------------------------------------------- pósit */
+.postit {
+  position: absolute;
+  background: #fbf0a6;
+  box-shadow: 0.8mm 1.2mm 0 rgba(0, 0, 0, 0.12);
+  padding: 4mm 3.5mm;
+  font-family: var(--font-hand);
+  font-size: 12.5pt;
+  line-height: 1.12;
+  text-align: center;
+  color: #23202a;
+}
+.postit .sig {
+  display: block;
+  text-align: right;
+  margin-top: 1.5mm;
+  font-size: 12pt;
+}
+.tip-box {
+  position: absolute;
+  background: #fbf0a6;
+  box-shadow: 0.8mm 1.2mm 0 rgba(0, 0, 0, 0.12);
+  padding: 3mm 3.5mm;
+  font-family: var(--font-serif);
+  font-size: 9pt;
+  font-style: italic;
+  line-height: 1.2;
+}
+.tip-box .tip-title {
+  font-style: normal;
+  font-weight: 700;
+  font-family: var(--font-slab);
+  font-size: 8.5pt;
+  display: block;
+  margin-bottom: 1mm;
+}
+
+/* ----------------------------------------------------- papel rasgado */
+.torn {
+  position: absolute;
+  background: #ffffff;
+  filter: drop-shadow(0.7mm 0.9mm 0 rgba(0, 0, 0, 0.16));
+}
+.answer-slip {
+  position: absolute;
+  background: #ececec;
+  filter: drop-shadow(0.8mm 1mm 0 rgba(0, 0, 0, 0.22));
+  text-align: center;
+  font-family: var(--font-slab);
+  font-size: 8.6pt;
+  padding-top: 3mm;
+}
+.answer-slip .line {
+  position: absolute;
+  left: 4mm;
+  right: 4mm;
+  bottom: 3.6mm;
+  border-bottom: 0.35mm solid #1d1b22;
+}
+.answer-slip .answer {
+  position: absolute;
+  left: 2mm;
+  right: 2mm;
+  bottom: 3.9mm;
+  font-family: var(--font-script);
+  font-size: 15pt;
+  line-height: 1;
+}
+
+/* ------------------------------------------------------- leyenda objeto */
+.legend-box {
+  position: absolute;
+  border-radius: 4mm;
+  background: #dfe9f6;
+  box-shadow: 0.6mm 0.8mm 0 rgba(0, 0, 0, 0.12);
+  text-align: center;
+  font-family: var(--font-slab);
+  padding: 2mm 1.5mm;
+}
+.legend-box .lg-title {
+  font-weight: 700;
+  font-size: 8.4pt;
+}
+.legend-box .lg-note {
+  font-size: 6.6pt;
+}
+.legend-box.compact {
+  display: flex;
+  align-items: center;
+  gap: 1.5mm;
+  text-align: left;
+  padding: 1.5mm 2mm;
+}
+
+/* ----------------------------------------------------------- soluciones */
+.solution-block {
+  position: absolute;
+  left: 7mm;
+  right: 7mm;
+  height: 86mm;
+}
+.solution-block .sol-title {
+  text-align: center;
+  font-family: var(--font-title);
+  font-weight: 800;
+  font-size: 12.5pt;
+}
+.solution-block .sol-body {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 24mm;
+  font-family: var(--font-serif);
+  line-height: 1.17;
+}
+.solution-block .sol-board {
+  float: right;
+  margin-left: 3mm;
+  margin-bottom: 1mm;
+}
+.solution-block .sol-steps {
+  margin: 0;
+  padding-left: 3.4mm;
+}
+.solution-block .sol-board.full {
+  float: none;
+  margin: 0 auto 3mm;
+}
+.solution-block .sol-steps.two-cols {
+  column-count: 2;
+  column-gap: 5mm;
+}
+.solution-block .sol-steps.two-cols li {
+  break-inside: avoid;
+}
+.solution-block .sol-steps li {
+  margin-bottom: 0.9mm;
+}
+.solution-block .sol-steps li::marker {
+  font-weight: 700;
+  font-family: var(--font-slab);
+}
+.name-chip {
+  display: inline-block;
+  border-radius: 1.6mm;
+  padding: 0 0.7mm;
+  font-weight: 700;
+  font-family: var(--font-slab);
+  font-size: 0.93em;
+  line-height: 1.15;
+}
+
+/* ------------------------------------------------------ instrucciones */
+.panel {
+  position: absolute;
+  border-radius: 5mm;
+  background: #d5e4f5;
+  box-shadow: 0 0.9mm 0 #b3c6df;
+  font-family: var(--font-slab);
+}
+.panel h2 {
+  margin: 0;
+  font-family: var(--font-slab);
+  font-weight: 700;
+  font-size: 13pt;
+  text-align: center;
+}
+.panel p {
+  margin: 0;
+}
+
+/* ------------------------------------------------------------- pantalla */
+.spread {
+  display: flex;
+  gap: 0;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.18);
+}
+.spread .book-page.left::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 6mm;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.07));
+  pointer-events: none;
+}
+.spread .book-page.right::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 6mm;
+  background: linear-gradient(270deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.07));
+  pointer-events: none;
+}
+
+/* ------------------------------------------------------------- impresión */
+@media print {
+  @page {
+    size: 127mm 190.5mm;
+    margin: 0;
+  }
+  html,
+  body {
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #ffffff !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-root {
+    display: block !important;
+  }
+  .print-root .book-page {
+    break-after: page;
+    page-break-after: always;
+    box-shadow: none !important;
+  }
+  .print-root .book-page::after {
+    display: none !important;
+  }
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+}

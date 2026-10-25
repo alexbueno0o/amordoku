@@ -1,0 +1,51 @@
+{
+  "name": "amordoku",
+  "version": "1.0.0",
+  "description": "Crea un libro de acertijos lógicos tipo Murdoku personalizado con tus recuerdos: personajes, escenarios, generador de casos y exportación a PDF.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "pdf": "tsx scripts/pdf.tsx",
+    "example": "tsx examples/build.ts",
+    "libro": "tsx private/build.ts"
+  },
+  "keywords": [
+    "murdoku",
+    "puzzle",
+    "logic",
+    "react",
+    "typescript",
+    "vite",
+    "gift"
+  ],
+  "author": "Alejandro Bueno (https://github.com/alexbueno0o)",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@fontsource/anton": "^5.3.0",
+    "@fontsource/caveat": "^5.3.0",
+    "@fontsource/crimson-pro": "^5.3.0",
+    "@fontsource/kaushan-script": "^5.3.0",
+    "@fontsource/oswald": "^5.3.0",
+    "@fontsource/outfit": "^5.3.0",
+    "@fontsource/roboto-slab": "^5.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zustand": "^4.5.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "playwright": "^1.63.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11",
+    "vitest": "^2.1.8"
+  },
+  "private": true
+}

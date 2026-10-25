@@ -1,0 +1,1445 @@
+{
+ "version": 1,
+ "name": "Amordoku de ejemplo (Ana y Leo)",
+ "characters": [
+  {
+   "id": "ana",
+   "name": "Ana",
+   "gender": "f",
+   "group": "Protagonistas",
+   "avatar": {
+    "kind": "person",
+    "bg": "#5aa7b5",
+    "skin": "#efc7a7",
+    "face": "oval",
+    "weight": 0.35,
+    "jaw": 0.5,
+    "length": 0.5,
+    "hair": "longWavy",
+    "hairColor": "#5a3a24",
+    "eyebrows": "none",
+    "facialHair": "none",
+    "facialHairColor": "#3b2519",
+    "freckles": false,
+    "blush": true,
+    "glasses": "none",
+    "glassesColor": "#222222",
+    "earrings": "hoop",
+    "earringColor": "#d4af37",
+    "necklace": "none",
+    "necklaceColor": "#d4af37",
+    "hat": "none",
+    "hatColor": "#3d5a9e",
+    "outfit": "blouse",
+    "outfitColor": "#f2e8cf",
+    "outfitAccent": "#ffffff",
+    "extras": []
+   }
+  },
+  {
+   "id": "leo",
+   "name": "Leo",
+   "gender": "m",
+   "group": "Protagonistas",
+   "avatar": {
+    "kind": "person",
+    "bg": "#d4673f",
+    "skin": "#dba27a",
+    "face": "oval",
+    "weight": 0.35,
+    "jaw": 0.4,
+    "length": 0.5,
+    "hair": "curlyShort",
+    "hairColor": "#1f1712",
+    "eyebrows": "none",
+    "facialHair": "short",
+    "facialHairColor": "#1f1712",
+    "freckles": false,
+    "blush": false,
+    "glasses": "none",
+    "glassesColor": "#222222",
+    "earrings": "none",
+    "earringColor": "#d4af37",
+    "necklace": "none",
+    "necklaceColor": "#d4af37",
+    "hat": "none",
+    "hatColor": "#3d5a9e",
+    "outfit": "polo",
+    "outfitColor": "#1d3557",
+    "outfitAccent": "#ffffff",
+    "extras": []
+   }
+  },
+  {
+   "id": "abuela",
+   "name": "Abuela Rosa",
+   "gender": "f",
+   "group": "Familia",
+   "avatar": {
+    "kind": "person",
+    "bg": "#f2c94c",
+    "skin": "#e8b791",
+    "face": "round",
+    "weight": 0.55,
+    "jaw": 0.4,
+    "length": 0.5,
+    "hair": "granny",
+    "hairColor": "#e6e6e6",
+    "eyebrows": "none",
+    "facialHair": "none",
+    "facialHairColor": "#3b2519",
+    "freckles": false,
+    "blush": false,
+    "glasses": "round",
+    "glassesColor": "#7b4a3a",
+    "earrings": "none",
+    "earringColor": "#d4af37",
+    "necklace": "pearls",
+    "necklaceColor": "#d4af37",
+    "hat": "none",
+    "hatColor": "#3d5a9e",
+    "outfit": "sweater",
+    "outfitColor": "#7b2a5a",
+    "outfitAccent": "#ffffff",
+    "extras": []
+   }
+  },
+  {
+   "id": "primo",
+   "name": "Primo Dani",
+   "gender": "m",
+   "group": "Familia",
+   "avatar": {
+    "kind": "person",
+    "bg": "#3f8f5a",
+    "skin": "#efc7a7",
+    "face": "oval",
+    "weight": 0.35,
+    "jaw": 0.4,
+    "length": 0.5,
+    "hair": "messy",
+    "hairColor": "#8a5a33",
+    "eyebrows": "none",
+    "facialHair": "none",
+    "facialHairColor": "#3b2519",
+    "freckles": true,
+    "blush": false,
+    "glasses": "none",
+    "glassesColor": "#222222",
+    "earrings": "none",
+    "earringColor": "#d4af37",
+    "necklace": "none",
+    "necklaceColor": "#d4af37",
+    "hat": "none",
+    "hatColor": "#3d5a9e",
+    "outfit": "hoodie",
+    "outfitColor": "#e76f51",
+    "outfitAccent": "#ffffff",
+    "extras": []
+   }
+  },
+  {
+   "id": "tia",
+   "name": "Tía Marta",
+   "gender": "f",
+   "group": "Familia",
+   "avatar": {
+    "kind": "person",
+    "bg": "#9a5aa8",
+    "skin": "#f7dcc8",
+    "face": "oval",
+    "weight": 0.35,
+    "jaw": 0.4,
+    "length": 0.5,
+    "hair": "bob",
+    "hairColor": "#b5452b",
+    "eyebrows": "none",
+    "facialHair": "none",
+    "facialHairColor": "#3b2519",
+    "freckles": false,
+    "blush": false,
+    "glasses": "none",
+    "glassesColor": "#222222",
+    "earrings": "drop",
+    "earringColor": "#d4af37",
+    "necklace": "none",
+    "necklaceColor": "#d4af37",
+    "hat": "none",
+    "hatColor": "#3d5a9e",
+    "outfit": "vneck",
+    "outfitColor": "#2a9d8f",
+    "outfitAccent": "#ffffff",
+    "extras": []
+   }
+  },
+  {
+   "id": "perro",
+   "name": "Toby",
+   "gender": "m",
+   "group": "Animales",
+   "avatar": {
+    "kind": "animal",
+    "bg": "#cfd8c4",
+    "skin": "#e8b791",
+    "face": "oval",
+    "weight": 0.35,
+    "jaw": 0.4,
+    "length": 0.5,
+    "hair": "short",
+    "hairColor": "#3b2519",
+    "eyebrows": "none",
+    "facialHair": "none",
+    "facialHairColor": "#3b2519",
+    "freckles": false,
+    "blush": false,
+    "glasses": "none",
+    "glassesColor": "#222222",
+    "earrings": "none",
+    "earringColor": "#d4af37",
+    "necklace": "none",
+    "necklaceColor": "#d4af37",
+    "hat": "none",
+    "hatColor": "#3d5a9e",
+    "outfit": "tshirt",
+    "outfitColor": "#4a6fa5",
+    "outfitAccent": "#ffffff",
+    "extras": [],
+    "animal": "dog",
+    "animalColor": "#c98f63"
+   }
+  },
+  {
+   "id": "croqueta",
+   "name": "La croqueta",
+   "gender": "f",
+   "group": "Objetos",
+   "avatar": {
+    "kind": "object",
+    "bg": "#e89a3c",
+    "skin": "#e8b791",
+    "face": "oval",
+    "weight": 0.35,
+    "jaw": 0.4,
+    "length": 0.5,
+    "hair": "short",
+    "hairColor": "#3b2519",
+    "eyebrows": "none",
+    "facialHair": "none",
+    "facialHairColor": "#3b2519",
+    "freckles": false,
+    "blush": false,
+    "glasses": "none",
+    "glassesColor": "#222222",
+    "earrings": "none",
+    "earringColor": "#d4af37",
+    "necklace": "none",
+    "necklaceColor": "#d4af37",
+    "hat": "none",
+    "hatColor": "#3d5a9e",
+    "outfit": "tshirt",
+    "outfitColor": "#4a6fa5",
+    "outfitAccent": "#ffffff",
+    "extras": [],
+    "object": "croqueta"
+   }
+  },
+  {
+   "id": "camarero",
+   "name": "Camarero",
+   "gender": "m",
+   "group": "Extras",
+   "avatar": {
+    "kind": "person",
+    "bg": "#e8d6c7",
+    "skin": "#c98f63",
+    "face": "oval",
+    "weight": 0.35,
+    "jaw": 0.4,
+    "length": 0.5,
+    "hair": "slick",
+    "hairColor": "#1f1712",
+    "eyebrows": "none",
+    "facialHair": "mustache",
+    "facialHairColor": "#1f1712",
+    "freckles": false,
+    "blush": false,
+    "glasses": "none",
+    "glassesColor": "#222222",
+    "earrings": "none",
+    "earringColor": "#d4af37",
+    "necklace": "none",
+    "necklaceColor": "#d4af37",
+    "hat": "none",
+    "hatColor": "#3d5a9e",
+    "outfit": "tux",
+    "outfitColor": "#4a6fa5",
+    "outfitAccent": "#ffffff",
+    "extras": []
+   }
+  },
+  {
+   "id": "cocinera",
+   "name": "Cocinera",
+   "gender": "f",
+   "group": "Extras",
+   "avatar": {
+    "kind": "person",
+    "bg": "#7a2f3b",
+    "skin": "#efc7a7",
+    "face": "oval",
+    "weight": 0.35,
+    "jaw": 0.4,
+    "length": 0.5,
+    "hair": "lowBun",
+    "hairColor": "#3b2519",
+    "eyebrows": "none",
+    "facialHair": "none",
+    "facialHairColor": "#3b2519",
+    "freckles": false,
+    "blush": false,
+    "glasses": "none",
+    "glassesColor": "#222222",
+    "earrings": "none",
+    "earringColor": "#d4af37",
+    "necklace": "none",
+    "necklaceColor": "#d4af37",
+    "hat": "chef",
+    "hatColor": "#ffffff",
+    "outfit": "chefJacket",
+    "outfitColor": "#4a6fa5",
+    "outfitAccent": "#1f1f1f",
+    "extras": []
+   }
+  },
+  {
+   "id": "musico",
+   "name": "Músico",
+   "gender": "m",
+   "group": "Extras",
+   "avatar": {
+    "kind": "person",
+    "bg": "#2a9d8f",
+    "skin": "#b07548",
+    "face": "oval",
+    "weight": 0.35,
+    "jaw": 0.4,
+    "length": 0.5,
+    "hair": "afro",
+    "hairColor": "#1f1712",
+    "eyebrows": "none",
+    "facialHair": "none",
+    "facialHairColor": "#3b2519",
+    "freckles": false,
+    "blush": false,
+    "glasses": "none",
+    "glassesColor": "#222222",
+    "earrings": "none",
+    "earringColor": "#d4af37",
+    "necklace": "none",
+    "necklaceColor": "#d4af37",
+    "hat": "none",
+    "hatColor": "#3d5a9e",
+    "outfit": "shirtOpen",
+    "outfitColor": "#f2c94c",
+    "outfitAccent": "#ffffff",
+    "extras": [
+     "guitar"
+    ]
+   }
+  },
+  {
+   "id": "pareja",
+   "name": "Señora",
+   "gender": "f",
+   "group": "Extras",
+   "avatar": {
+    "kind": "person",
+    "bg": "#c7dfe8",
+    "skin": "#efc7a7",
+    "face": "oval",
+    "weight": 0.35,
+    "jaw": 0.4,
+    "length": 0.5,
+    "hair": "lob",
+    "hairColor": "#d9a85b",
+    "eyebrows": "none",
+    "facialHair": "none",
+    "facialHairColor": "#3b2519",
+    "freckles": false,
+    "blush": false,
+    "glasses": "none",
+    "glassesColor": "#222222",
+    "earrings": "none",
+    "earringColor": "#d4af37",
+    "necklace": "chain",
+    "necklaceColor": "#d4af37",
+    "hat": "none",
+    "hatColor": "#3d5a9e",
+    "outfit": "dress",
+    "outfitColor": "#e63946",
+    "outfitAccent": "#ffffff",
+    "extras": []
+   }
+  },
+  {
+   "id": "anillo",
+   "name": "El anillo",
+   "gender": "m",
+   "group": "Objetos",
+   "avatar": {
+    "kind": "object",
+    "bg": "#f4a6c1",
+    "skin": "#e8b791",
+    "face": "oval",
+    "weight": 0.35,
+    "jaw": 0.4,
+    "length": 0.5,
+    "hair": "short",
+    "hairColor": "#3b2519",
+    "eyebrows": "none",
+    "facialHair": "none",
+    "facialHairColor": "#3b2519",
+    "freckles": false,
+    "blush": false,
+    "glasses": "none",
+    "glassesColor": "#222222",
+    "earrings": "none",
+    "earringColor": "#d4af37",
+    "necklace": "none",
+    "necklaceColor": "#d4af37",
+    "hat": "none",
+    "hatColor": "#3d5a9e",
+    "outfit": "tshirt",
+    "outfitColor": "#4a6fa5",
+    "outfitAccent": "#ffffff",
+    "extras": [],
+    "object": "rings"
+   }
+  }
+ ],
+ "scenarios": [
+  {
+   "id": "casa-abuela",
+   "name": "Casa de la abuela",
+   "floors": {
+    "k": {
+     "pattern": "hydraulic",
+     "colors": [
+      "#fbefdc",
+      "#e98a5b"
+     ]
+    },
+    "s": {
+     "pattern": "wood",
+     "colors": [
+      "#e9cfa8",
+      "#dcbd92"
+     ]
+    },
+    "c": {
+     "pattern": "tiles",
+     "colors": [
+      "#e7e1f2",
+      "#d6cde9"
+     ]
+    },
+    "t": {
+     "pattern": "terracotta",
+     "colors": [
+      "#ebb08a",
+      "#d9966c"
+     ]
+    }
+   },
+   "board": {
+    "rows": 6,
+    "cols": 6,
+    "cells": [
+     {
+      "room": "casa-abuela-cocina",
+      "floor": "k"
+     },
+     {
+      "room": "casa-abuela-cocina",
+      "floor": "k"
+     },
+     {
+      "room": "casa-abuela-cocina",
+      "floor": "k"
+     },
+     {
+      "room": "casa-abuela-salon",
+      "floor": "s"
+     },
+     {
+      "room": "casa-abuela-salon",
+      "floor": "s"
+     },
+     {
+      "room": "casa-abuela-salon",
+      "floor": "s"
+     },
+     {
+      "room": "casa-abuela-cocina",
+      "floor": "k"
+     },
+     {
+      "room": "casa-abuela-cocina",
+      "floor": "k"
+     },
+     {
+      "room": "casa-abuela-cocina",
+      "floor": "k"
+     },
+     {
+      "room": "casa-abuela-salon",
+      "floor": "s"
+     },
+     {
+      "room": "casa-abuela-salon",
+      "floor": "s"
+     },
+     {
+      "room": "casa-abuela-salon",
+      "floor": "s"
+     },
+     {
+      "room": "casa-abuela-cocina",
+      "floor": "k"
+     },
+     {
+      "room": "casa-abuela-cocina",
+      "floor": "k"
+     },
+     {
+      "room": "casa-abuela-cocina",
+      "floor": "k"
+     },
+     {
+      "room": "casa-abuela-salon",
+      "floor": "s"
+     },
+     {
+      "room": "casa-abuela-salon",
+      "floor": "s"
+     },
+     {
+      "room": "casa-abuela-salon",
+      "floor": "s"
+     },
+     {
+      "room": "casa-abuela-comedor",
+      "floor": "c"
+     },
+     {
+      "room": "casa-abuela-comedor",
+      "floor": "c"
+     },
+     {
+      "room": "casa-abuela-comedor",
+      "floor": "c"
+     },
+     {
+      "room": "casa-abuela-terraza",
+      "floor": "t"
+     },
+     {
+      "room": "casa-abuela-terraza",
+      "floor": "t"
+     },
+     {
+      "room": "casa-abuela-terraza",
+      "floor": "t"
+     },
+     {
+      "room": "casa-abuela-comedor",
+      "floor": "c"
+     },
+     {
+      "room": "casa-abuela-comedor",
+      "floor": "c"
+     },
+     {
+      "room": "casa-abuela-comedor",
+      "floor": "c"
+     },
+     {
+      "room": "casa-abuela-terraza",
+      "floor": "t"
+     },
+     {
+      "room": "casa-abuela-terraza",
+      "floor": "t"
+     },
+     {
+      "room": "casa-abuela-terraza",
+      "floor": "t"
+     },
+     {
+      "room": "casa-abuela-comedor",
+      "floor": "c"
+     },
+     {
+      "room": "casa-abuela-comedor",
+      "floor": "c"
+     },
+     {
+      "room": "casa-abuela-comedor",
+      "floor": "c"
+     },
+     {
+      "room": "casa-abuela-terraza",
+      "floor": "t"
+     },
+     {
+      "room": "casa-abuela-terraza",
+      "floor": "t"
+     },
+     {
+      "room": "casa-abuela-terraza",
+      "floor": "t"
+     }
+    ],
+    "rooms": [
+     {
+      "id": "casa-abuela-cocina",
+      "name": "Cocina",
+      "article": "la"
+     },
+     {
+      "id": "casa-abuela-salon",
+      "name": "Salón",
+      "article": "el"
+     },
+     {
+      "id": "casa-abuela-comedor",
+      "name": "Comedor",
+      "article": "el"
+     },
+     {
+      "id": "casa-abuela-terraza",
+      "name": "Terraza",
+      "article": "la"
+     }
+    ],
+    "objects": [
+     {
+      "id": "casa-abuela-o1",
+      "type": "kitchen",
+      "r": 0,
+      "c": 0,
+      "w": 2,
+      "h": 1,
+      "variant": "fuegos"
+     },
+     {
+      "id": "casa-abuela-o2",
+      "type": "fridge",
+      "r": 2,
+      "c": 0,
+      "w": 1,
+      "h": 1
+     },
+     {
+      "id": "casa-abuela-o3",
+      "type": "sofa",
+      "r": 1,
+      "c": 4,
+      "w": 2,
+      "h": 1,
+      "color": "#8fa7c9"
+     },
+     {
+      "id": "casa-abuela-o4",
+      "type": "tv",
+      "r": 0,
+      "c": 5,
+      "w": 1,
+      "h": 1
+     },
+     {
+      "id": "casa-abuela-o5",
+      "type": "table",
+      "r": 4,
+      "c": 1,
+      "w": 1,
+      "h": 1,
+      "variant": "mantel",
+      "color": "#e63946"
+     },
+     {
+      "id": "casa-abuela-o6",
+      "type": "chair",
+      "r": 4,
+      "c": 0,
+      "w": 1,
+      "h": 1,
+      "variant": "comedor",
+      "color": "#c9a36b"
+     },
+     {
+      "id": "casa-abuela-o7",
+      "type": "chair",
+      "r": 5,
+      "c": 1,
+      "w": 1,
+      "h": 1,
+      "variant": "comedor",
+      "color": "#c9a36b"
+     },
+     {
+      "id": "casa-abuela-o8",
+      "type": "plant",
+      "r": 3,
+      "c": 5,
+      "w": 1,
+      "h": 1,
+      "variant": "flores"
+     },
+     {
+      "id": "casa-abuela-o9",
+      "type": "hammock",
+      "r": 4,
+      "c": 3,
+      "w": 1,
+      "h": 2,
+      "color": "#e9c46a"
+     }
+    ],
+    "edges": [
+     {
+      "id": "casa-abuela-e1",
+      "type": "window",
+      "r": 0,
+      "c": 3,
+      "side": "top"
+     },
+     {
+      "id": "casa-abuela-e2",
+      "type": "window",
+      "r": 5,
+      "c": 5,
+      "side": "right"
+     }
+    ]
+   }
+  },
+  {
+   "id": "restaurante",
+   "name": "Restaurante italiano",
+   "floors": {
+    "k": {
+     "pattern": "bigTiles",
+     "colors": [
+      "#f3efe6",
+      "#e2dccf"
+     ]
+    },
+    "m": {
+     "pattern": "parquet",
+     "colors": [
+      "#d9b48a",
+      "#c99c6c"
+     ]
+    },
+    "b": {
+     "pattern": "darkWood",
+     "colors": [
+      "#6e4b35",
+      "#5b3c2a"
+     ]
+    },
+    "w": {
+     "pattern": "mosaic",
+     "colors": [
+      "#d6ecef",
+      "#c0e0e6"
+     ]
+    },
+    "t": {
+     "pattern": "cobble",
+     "colors": [
+      "#d6cfc2",
+      "#bdb3a2"
+     ]
+    }
+   },
+   "board": {
+    "rows": 7,
+    "cols": 7,
+    "cells": [
+     {
+      "room": "restaurante-cocina",
+      "floor": "k"
+     },
+     {
+      "room": "restaurante-cocina",
+      "floor": "k"
+     },
+     {
+      "room": "restaurante-cocina",
+      "floor": "k"
+     },
+     {
+      "room": "restaurante-comedor",
+      "floor": "m"
+     },
+     {
+      "room": "restaurante-comedor",
+      "floor": "m"
+     },
+     {
+      "room": "restaurante-comedor",
+      "floor": "m"
+     },
+     {
+      "room": "restaurante-comedor",
+      "floor": "m"
+     },
+     {
+      "room": "restaurante-cocina",
+      "floor": "k"
+     },
+     {
+      "room": "restaurante-cocina",
+      "floor": "k"
+     },
+     {
+      "room": "restaurante-cocina",
+      "floor": "k"
+     },
+     {
+      "room": "restaurante-comedor",
+      "floor": "m"
+     },
+     {
+      "room": "restaurante-comedor",
+      "floor": "m"
+     },
+     {
+      "room": "restaurante-comedor",
+      "floor": "m"
+     },
+     {
+      "room": "restaurante-comedor",
+      "floor": "m"
+     },
+     {
+      "room": "restaurante-barra",
+      "floor": "b"
+     },
+     {
+      "room": "restaurante-barra",
+      "floor": "b"
+     },
+     {
+      "room": "restaurante-barra",
+      "floor": "b"
+     },
+     {
+      "room": "restaurante-comedor",
+      "floor": "m"
+     },
+     {
+      "room": "restaurante-comedor",
+      "floor": "m"
+     },
+     {
+      "room": "restaurante-comedor",
+      "floor": "m"
+     },
+     {
+      "room": "restaurante-comedor",
+      "floor": "m"
+     },
+     {
+      "room": "restaurante-barra",
+      "floor": "b"
+     },
+     {
+      "room": "restaurante-barra",
+      "floor": "b"
+     },
+     {
+      "room": "restaurante-barra",
+      "floor": "b"
+     },
+     {
+      "room": "restaurante-comedor",
+      "floor": "m"
+     },
+     {
+      "room": "restaurante-comedor",
+      "floor": "m"
+     },
+     {
+      "room": "restaurante-comedor",
+      "floor": "m"
+     },
+     {
+      "room": "restaurante-comedor",
+      "floor": "m"
+     },
+     {
+      "room": "restaurante-aseos",
+      "floor": "w"
+     },
+     {
+      "room": "restaurante-aseos",
+      "floor": "w"
+     },
+     {
+      "room": "restaurante-terraza",
+      "floor": "t"
+     },
+     {
+      "room": "restaurante-terraza",
+      "floor": "t"
+     },
+     {
+      "room": "restaurante-terraza",
+      "floor": "t"
+     },
+     {
+      "room": "restaurante-terraza",
+      "floor": "t"
+     },
+     {
+      "room": "restaurante-terraza",
+      "floor": "t"
+     },
+     {
+      "room": "restaurante-aseos",
+      "floor": "w"
+     },
+     {
+      "room": "restaurante-aseos",
+      "floor": "w"
+     },
+     {
+      "room": "restaurante-terraza",
+      "floor": "t"
+     },
+     {
+      "room": "restaurante-terraza",
+      "floor": "t"
+     },
+     {
+      "room": "restaurante-terraza",
+      "floor": "t"
+     },
+     {
+      "room": "restaurante-terraza",
+      "floor": "t"
+     },
+     {
+      "room": "restaurante-terraza",
+      "floor": "t"
+     },
+     {
+      "room": "restaurante-aseos",
+      "floor": "w"
+     },
+     {
+      "room": "restaurante-aseos",
+      "floor": "w"
+     },
+     {
+      "room": "restaurante-terraza",
+      "floor": "t"
+     },
+     {
+      "room": "restaurante-terraza",
+      "floor": "t"
+     },
+     {
+      "room": "restaurante-terraza",
+      "floor": "t"
+     },
+     {
+      "room": "restaurante-terraza",
+      "floor": "t"
+     },
+     {
+      "room": "restaurante-terraza",
+      "floor": "t"
+     }
+    ],
+    "rooms": [
+     {
+      "id": "restaurante-cocina",
+      "name": "Cocina",
+      "article": "la"
+     },
+     {
+      "id": "restaurante-comedor",
+      "name": "Comedor",
+      "article": "el"
+     },
+     {
+      "id": "restaurante-barra",
+      "name": "Barra",
+      "article": "la"
+     },
+     {
+      "id": "restaurante-aseos",
+      "name": "Aseos",
+      "article": "los"
+     },
+     {
+      "id": "restaurante-terraza",
+      "name": "Terraza",
+      "article": "la"
+     }
+    ],
+    "objects": [
+     {
+      "id": "restaurante-o1",
+      "type": "kitchen",
+      "r": 0,
+      "c": 0,
+      "w": 2,
+      "h": 1,
+      "variant": "horno"
+     },
+     {
+      "id": "restaurante-o2",
+      "type": "fridge",
+      "r": 1,
+      "c": 2,
+      "w": 1,
+      "h": 1
+     },
+     {
+      "id": "restaurante-o3",
+      "type": "table",
+      "r": 1,
+      "c": 4,
+      "w": 1,
+      "h": 1,
+      "variant": "mantel",
+      "color": "#2a9d8f"
+     },
+     {
+      "id": "restaurante-o4",
+      "type": "chair",
+      "r": 0,
+      "c": 4,
+      "w": 1,
+      "h": 1,
+      "variant": "comedor",
+      "color": "#8a5a33"
+     },
+     {
+      "id": "restaurante-o5",
+      "type": "chair",
+      "r": 1,
+      "c": 5,
+      "w": 1,
+      "h": 1,
+      "variant": "comedor",
+      "color": "#8a5a33"
+     },
+     {
+      "id": "restaurante-o6",
+      "type": "table",
+      "r": 3,
+      "c": 6,
+      "w": 1,
+      "h": 1,
+      "variant": "mantel",
+      "color": "#2a9d8f"
+     },
+     {
+      "id": "restaurante-o7",
+      "type": "chair",
+      "r": 2,
+      "c": 6,
+      "w": 1,
+      "h": 1,
+      "variant": "comedor",
+      "color": "#8a5a33"
+     },
+     {
+      "id": "restaurante-o8",
+      "type": "piano",
+      "r": 3,
+      "c": 3,
+      "w": 2,
+      "h": 1,
+      "color": "#2b2b2b"
+     },
+     {
+      "id": "restaurante-o9",
+      "type": "counter",
+      "r": 2,
+      "c": 0,
+      "w": 1,
+      "h": 2,
+      "variant": "bar",
+      "rot": 90,
+      "color": "#4b3a33"
+     },
+     {
+      "id": "restaurante-o10",
+      "type": "stool",
+      "r": 2,
+      "c": 1,
+      "w": 1,
+      "h": 1,
+      "color": "#c49a5a"
+     },
+     {
+      "id": "restaurante-o11",
+      "type": "toilet",
+      "r": 6,
+      "c": 0,
+      "w": 1,
+      "h": 1
+     },
+     {
+      "id": "restaurante-o12",
+      "type": "sink",
+      "r": 4,
+      "c": 0,
+      "w": 1,
+      "h": 1
+     },
+     {
+      "id": "restaurante-o13",
+      "type": "table",
+      "r": 5,
+      "c": 4,
+      "w": 1,
+      "h": 1,
+      "variant": "redonda",
+      "color": "#ffffff"
+     },
+     {
+      "id": "restaurante-o14",
+      "type": "chair",
+      "r": 5,
+      "c": 3,
+      "w": 1,
+      "h": 1,
+      "variant": "terraza",
+      "color": "#e63946"
+     },
+     {
+      "id": "restaurante-o15",
+      "type": "umbrella",
+      "r": 4,
+      "c": 6,
+      "w": 1,
+      "h": 1,
+      "color": "#e63946"
+     },
+     {
+      "id": "restaurante-o16",
+      "type": "plant",
+      "r": 6,
+      "c": 6,
+      "w": 1,
+      "h": 1,
+      "variant": "olivo"
+     }
+    ],
+    "edges": [
+     {
+      "id": "restaurante-e1",
+      "type": "window",
+      "r": 0,
+      "c": 6,
+      "side": "right"
+     }
+    ]
+   }
+  }
+ ],
+ "cases": [
+  {
+   "id": "ej1-croqueta",
+   "title": "La última croqueta",
+   "subtitle": "Domingo en casa de la abuela. Nunca sobra comida… salvo hoy: alguien se ha comido la última croqueta.",
+   "scenarioId": "casa-abuela",
+   "people": [
+    {
+     "characterId": "ana"
+    },
+    {
+     "characterId": "leo"
+    },
+    {
+     "characterId": "abuela"
+    },
+    {
+     "characterId": "primo"
+    },
+    {
+     "characterId": "perro"
+    },
+    {
+     "characterId": "croqueta"
+    }
+   ],
+   "targetId": "croqueta",
+   "targetLabel": "La croqueta.",
+   "targetMode": "lastCell",
+   "culpritRef": "quien se la comió",
+   "question": "Se la comió...",
+   "answerNote": "y luego puso cara de bueno",
+   "clues": [
+    {
+     "kind": "besideObject",
+     "p": "ana",
+     "type": "chair"
+    },
+    {
+     "kind": "besideObject",
+     "p": "leo",
+     "type": "plant"
+    },
+    {
+     "kind": "onObject",
+     "p": "abuela",
+     "type": "chair"
+    },
+    {
+     "kind": "besideObject",
+     "p": "primo",
+     "type": "kitchen",
+     "only": true
+    },
+    {
+     "kind": "onObject",
+     "p": "perro",
+     "type": "sofa"
+    }
+   ],
+   "postIt": {
+    "text": "Dicen que nunca olvidas tu primer caso.\nYo no olvido la primera croqueta.",
+    "signature": "Comisario Leo"
+   },
+   "pageColor": "#e7d3e4",
+   "boldKeywords": true,
+   "generator": {
+    "tier": 1,
+    "seed": 108,
+    "pins": [
+     {
+      "p": "abuela",
+      "rooms": [
+       "casa-abuela-cocina",
+       "casa-abuela-comedor"
+      ]
+     }
+    ],
+    "culpritId": "perro"
+   },
+   "solution": {
+    "ana": 18,
+    "leo": 29,
+    "abuela": 31,
+    "primo": 2,
+    "perro": 10,
+    "croqueta": 15
+   },
+   "culpritId": "perro",
+   "explanation": [
+    "Solo la **croqueta** puede ocupar la fila 3. Solo **Primo Dani** puede ocupar la fila 1. Esto coloca a **Primo Dani** en F1·C3.",
+    "Solo la **croqueta** puede ocupar la columna 4. Esto coloca a la **croqueta** en la última celda libre (F3·C4).",
+    "Solo la **abuela Rosa** puede ocupar la columna 2. Esto coloca a la **abuela Rosa** en F6·C2.",
+    "Con lo anterior quedan colocados: **Ana** en F4·C1, **Leo** en F5·C6.",
+    "Con lo anterior quedan colocados: **Toby** en F2·C5.",
+    "Solo **Toby** estaba a solas con la **croqueta**, en el salón. ¡**Toby** es quien se la comió!"
+   ],
+   "difficulty": {
+    "score": 14,
+    "level": 2,
+    "label": "Fácil"
+   }
+  },
+  {
+   "id": "ej2-anillo",
+   "title": "El anillo en el tiramisú",
+   "subtitle": "Leo escondió un anillo en el postre para pedirle matrimonio a Ana. Cuando llegó el tiramisú, el anillo ya no estaba.",
+   "scenarioId": "restaurante",
+   "people": [
+    {
+     "characterId": "ana"
+    },
+    {
+     "characterId": "leo"
+    },
+    {
+     "characterId": "camarero"
+    },
+    {
+     "characterId": "cocinera"
+    },
+    {
+     "characterId": "musico"
+    },
+    {
+     "characterId": "pareja"
+    },
+    {
+     "characterId": "anillo"
+    }
+   ],
+   "targetId": "anillo",
+   "targetLabel": "El anillo.",
+   "targetMode": "lastCell",
+   "culpritRef": "quien lo encontró",
+   "question": "Lo encontró...",
+   "answerNote": "probando el tiramisú (y lo devolvió, tranquilos)",
+   "clues": [
+    {
+     "kind": "besideObject",
+     "p": "ana",
+     "type": "table"
+    },
+    {
+     "kind": "lineWithObject",
+     "p": "leo",
+     "type": "piano",
+     "axis": "row"
+    },
+    {
+     "kind": "besideObject",
+     "p": "camarero",
+     "type": "chair"
+    },
+    {
+     "kind": "inRoom",
+     "p": "camarero",
+     "room": "restaurante-terraza"
+    },
+    {
+     "kind": "lineWithObject",
+     "p": "cocinera",
+     "type": "fridge",
+     "axis": "col"
+    },
+    {
+     "kind": "notInRoom",
+     "p": "musico",
+     "room": "restaurante-cocina"
+    },
+    {
+     "kind": "col",
+     "p": "musico",
+     "index": 1
+    },
+    {
+     "kind": "notInRoom",
+     "p": "pareja",
+     "room": "restaurante-aseos"
+    },
+    {
+     "kind": "row",
+     "p": "pareja",
+     "index": 6
+    }
+   ],
+   "pageColor": "#d9eaf6",
+   "boldKeywords": false,
+   "generator": {
+    "tier": 2,
+    "seed": 209,
+    "pins": [
+     {
+      "p": "ana",
+      "rooms": [
+       "restaurante-comedor"
+      ]
+     },
+     {
+      "p": "leo",
+      "rooms": [
+       "restaurante-comedor"
+      ]
+     },
+     {
+      "p": "anillo",
+      "rooms": [
+       "restaurante-cocina"
+      ]
+     },
+     {
+      "p": "cocinera",
+      "rooms": [
+       "restaurante-cocina"
+      ]
+     }
+    ],
+    "culpritId": "cocinera"
+   },
+   "solution": {
+    "ana": 20,
+    "leo": 26,
+    "camarero": 31,
+    "cocinera": 2,
+    "musico": 36,
+    "pareja": 46,
+    "anillo": 7
+   },
+   "culpritId": "cocinera",
+   "explanation": [
+    "Con lo anterior quedan colocados: **Leo** en F4·C6, la **cocinera** en F1·C3.",
+    "Solo el **anillo** puede ocupar la columna 1. Solo **Ana** puede ocupar la columna 7. Esto coloca a **Ana** en F3·C7.",
+    "Solo el **anillo** puede ocupar la fila 2. Esto coloca al **anillo** en la última celda libre (F2·C1).",
+    "Solo el **músico** puede ocupar la fila 6. Esto coloca al **músico** en F6·C2.",
+    "Solo el **camarero** puede ocupar la fila 5. Esto coloca al **camarero** en F5·C4.",
+    "Con lo anterior quedan colocados: la **señora** en F7·C5.",
+    "Solo la **cocinera** estaba a solas con el **anillo**, en la cocina. ¡La **cocinera** es quien lo encontró!"
+   ],
+   "difficulty": {
+    "score": 17,
+    "level": 2,
+    "label": "Fácil"
+   }
+  }
+ ],
+ "book": {
+  "title": "Amordoku",
+  "subtitle": "Acertijos de *lógica* y *amor*",
+  "author": "Leo",
+  "publisher": "ediciones besito",
+  "coverColor": "#7b2a5a",
+  "coverPortraits": [
+   {
+    "characterId": "leo",
+    "r": 1,
+    "c": 3
+   },
+   {
+    "characterId": "ana",
+    "r": 4,
+    "c": 1
+   }
+  ],
+  "dedication": "Para Ana,\nmi caso favorito.",
+  "credits": "Título original: Amordoku: casos de lógica y amor\n\n© Tu nombre\nTodos los derechos reservados (salvo los besos, que son tuyos).\n\nIlustraciones y escenarios: hechos a mano, con cariño y con código.\nPersonajes: inspirados en personas reales que no han dado su permiso para salir en un libro de asesinatos.\n\nediciones besito, un sello inventado\n\nPrimera edición: la única\nISBN: TQM-0000-0001\nImpreso con amor\n\nQueda prohibida la reproducción total o parcial de esta obra sin un beso previo.",
+  "narratorName": "Comisario Leo",
+  "texts": {},
+  "backCover": {
+   "question": "¿Quién le robó el corazón a quién?",
+   "answer": "TQM",
+   "characterIds": [
+    "leo",
+    "ana"
+   ],
+   "blurb": "Casos inspirados en nuestras historias: viajes, cenas, fiestas y algún que otro beso sospechoso. ¿Serás capaz de resolverlos todos?",
+   "note": "Caso abierto.\nSospechosos: tú y yo."
+  },
+  "caseOrder": [
+   "ej1-croqueta",
+   "ej2-anillo"
+  ],
+  "pageNumbers": true,
+  "bleed": false,
+  "narratorCharacterId": "leo",
+  "coverScenarioId": "casa-abuela"
+ }
+}
