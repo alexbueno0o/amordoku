@@ -1,22 +1,57 @@
 {
  "version": 1,
- "name": "Amordoku de ejemplo (Ana y Leo)",
+ "builtAt": 1792959600374,
+ "name": "Amordoku de Alex y Victoria (ejemplo)",
  "characters": [
   {
-   "id": "ana",
-   "name": "Ana",
+   "id": "alex",
+   "name": "Alex",
+   "gender": "m",
+   "group": "Protagonistas",
+   "avatar": {
+    "kind": "person",
+    "bg": "#d4673f",
+    "skin": "#e2b28c",
+    "face": "oval",
+    "weight": 0.42,
+    "jaw": 0.55,
+    "length": 0.55,
+    "hair": "curlyMedium",
+    "hairColor": "#2b1b13",
+    "eyebrows": "none",
+    "facialHair": "fade",
+    "facialHairColor": "#22150e",
+    "freckles": false,
+    "blush": false,
+    "glasses": "none",
+    "glassesColor": "#222222",
+    "earrings": "doubleHoop",
+    "earringColor": "#c9ccd1",
+    "necklace": "none",
+    "necklaceColor": "#d4af37",
+    "hat": "none",
+    "hatColor": "#3d5a9e",
+    "outfit": "poloContrast",
+    "outfitColor": "#4a3427",
+    "outfitAccent": "#f1e4a6",
+    "extras": []
+   }
+  },
+  {
+   "id": "victoria",
+   "name": "Victoria",
    "gender": "f",
    "group": "Protagonistas",
    "avatar": {
     "kind": "person",
     "bg": "#5aa7b5",
-    "skin": "#efc7a7",
+    "skin": "#f1cdb5",
     "face": "oval",
-    "weight": 0.35,
-    "jaw": 0.5,
-    "length": 0.5,
-    "hair": "longWavy",
-    "hairColor": "#5a3a24",
+    "weight": 0.05,
+    "jaw": 0.6,
+    "length": 0.7,
+    "hair": "longStraight",
+    "hairColor": "#3b2519",
     "eyebrows": "none",
     "facialHair": "none",
     "facialHairColor": "#3b2519",
@@ -24,48 +59,14 @@
     "blush": true,
     "glasses": "none",
     "glassesColor": "#222222",
-    "earrings": "hoop",
-    "earringColor": "#d4af37",
-    "necklace": "none",
-    "necklaceColor": "#d4af37",
+    "earrings": "statement",
+    "earringColor": "#d4a63a",
+    "necklace": "beads",
+    "necklaceColor": "#d4a63a",
     "hat": "none",
     "hatColor": "#3d5a9e",
-    "outfit": "blouse",
-    "outfitColor": "#f2e8cf",
-    "outfitAccent": "#ffffff",
-    "extras": []
-   }
-  },
-  {
-   "id": "leo",
-   "name": "Leo",
-   "gender": "m",
-   "group": "Protagonistas",
-   "avatar": {
-    "kind": "person",
-    "bg": "#d4673f",
-    "skin": "#dba27a",
-    "face": "oval",
-    "weight": 0.35,
-    "jaw": 0.4,
-    "length": 0.5,
-    "hair": "curlyShort",
-    "hairColor": "#1f1712",
-    "eyebrows": "none",
-    "facialHair": "short",
-    "facialHairColor": "#1f1712",
-    "freckles": false,
-    "blush": false,
-    "glasses": "none",
-    "glassesColor": "#222222",
-    "earrings": "none",
-    "earringColor": "#d4af37",
-    "necklace": "none",
-    "necklaceColor": "#d4af37",
-    "hat": "none",
-    "hatColor": "#3d5a9e",
-    "outfit": "polo",
-    "outfitColor": "#1d3557",
+    "outfit": "highNeck",
+    "outfitColor": "#f6f4ef",
     "outfitAccent": "#ffffff",
     "extras": []
    }
@@ -1164,10 +1165,10 @@
    "scenarioId": "casa-abuela",
    "people": [
     {
-     "characterId": "ana"
+     "characterId": "victoria"
     },
     {
-     "characterId": "leo"
+     "characterId": "alex"
     },
     {
      "characterId": "abuela"
@@ -1191,12 +1192,12 @@
    "clues": [
     {
      "kind": "besideObject",
-     "p": "ana",
+     "p": "victoria",
      "type": "chair"
     },
     {
      "kind": "besideObject",
-     "p": "leo",
+     "p": "alex",
      "type": "plant"
     },
     {
@@ -1218,7 +1219,7 @@
    ],
    "postIt": {
     "text": "Dicen que nunca olvidas tu primer caso.\nYo no olvido la primera croqueta.",
-    "signature": "Comisario Leo"
+    "signature": "Comisario Alex"
    },
    "pageColor": "#e7d3e4",
    "boldKeywords": true,
@@ -1237,8 +1238,8 @@
     "culpritId": "perro"
    },
    "solution": {
-    "ana": 18,
-    "leo": 29,
+    "victoria": 18,
+    "alex": 29,
     "abuela": 31,
     "primo": 2,
     "perro": 10,
@@ -1249,7 +1250,7 @@
     "Solo la **croqueta** puede ocupar la fila 3. Solo **Primo Dani** puede ocupar la fila 1. Esto coloca a **Primo Dani** en F1·C3.",
     "Solo la **croqueta** puede ocupar la columna 4. Esto coloca a la **croqueta** en la última celda libre (F3·C4).",
     "Solo la **abuela Rosa** puede ocupar la columna 2. Esto coloca a la **abuela Rosa** en F6·C2.",
-    "Con lo anterior quedan colocados: **Ana** en F4·C1, **Leo** en F5·C6.",
+    "Con lo anterior quedan colocados: **Victoria** en F4·C1, **Alex** en F5·C6.",
     "Con lo anterior quedan colocados: **Toby** en F2·C5.",
     "Solo **Toby** estaba a solas con la **croqueta**, en el salón. ¡**Toby** es quien se la comió!"
    ],
@@ -1262,14 +1263,14 @@
   {
    "id": "ej2-anillo",
    "title": "El anillo en el tiramisú",
-   "subtitle": "Leo escondió un anillo en el postre para pedirle matrimonio a Ana. Cuando llegó el tiramisú, el anillo ya no estaba.",
+   "subtitle": "Alex escondió un anillo en el postre para pedirle matrimonio a Victoria. Cuando llegó el tiramisú, el anillo ya no estaba.",
    "scenarioId": "restaurante",
    "people": [
     {
-     "characterId": "ana"
+     "characterId": "victoria"
     },
     {
-     "characterId": "leo"
+     "characterId": "alex"
     },
     {
      "characterId": "camarero"
@@ -1296,12 +1297,12 @@
    "clues": [
     {
      "kind": "besideObject",
-     "p": "ana",
+     "p": "victoria",
      "type": "table"
     },
     {
      "kind": "lineWithObject",
-     "p": "leo",
+     "p": "alex",
      "type": "piano",
      "axis": "row"
     },
@@ -1349,13 +1350,13 @@
     "seed": 209,
     "pins": [
      {
-      "p": "ana",
+      "p": "victoria",
       "rooms": [
        "restaurante-comedor"
       ]
      },
      {
-      "p": "leo",
+      "p": "alex",
       "rooms": [
        "restaurante-comedor"
       ]
@@ -1376,8 +1377,8 @@
     "culpritId": "cocinera"
    },
    "solution": {
-    "ana": 20,
-    "leo": 26,
+    "victoria": 20,
+    "alex": 26,
     "camarero": 31,
     "cocinera": 2,
     "musico": 36,
@@ -1386,8 +1387,8 @@
    },
    "culpritId": "cocinera",
    "explanation": [
-    "Con lo anterior quedan colocados: **Leo** en F4·C6, la **cocinera** en F1·C3.",
-    "Solo el **anillo** puede ocupar la columna 1. Solo **Ana** puede ocupar la columna 7. Esto coloca a **Ana** en F3·C7.",
+    "Con lo anterior quedan colocados: **Alex** en F4·C6, la **cocinera** en F1·C3.",
+    "Solo el **anillo** puede ocupar la columna 1. Solo **Victoria** puede ocupar la columna 7. Esto coloca a **Victoria** en F3·C7.",
     "Solo el **anillo** puede ocupar la fila 2. Esto coloca al **anillo** en la última celda libre (F2·C1).",
     "Solo el **músico** puede ocupar la fila 6. Esto coloca al **músico** en F6·C2.",
     "Solo el **camarero** puede ocupar la fila 5. Esto coloca al **camarero** en F5·C4.",
@@ -1404,31 +1405,31 @@
  "book": {
   "title": "Amordoku",
   "subtitle": "Acertijos de *lógica* y *amor*",
-  "author": "Leo",
+  "author": "Alex",
   "publisher": "ediciones besito",
   "coverColor": "#7b2a5a",
   "coverPortraits": [
    {
-    "characterId": "leo",
+    "characterId": "alex",
     "r": 1,
     "c": 3
    },
    {
-    "characterId": "ana",
+    "characterId": "victoria",
     "r": 4,
     "c": 1
    }
   ],
-  "dedication": "Para Ana,\nmi caso favorito.",
+  "dedication": "Para Victoria,\nla mejor detective que conozco\n(y mi caso favorito).",
   "credits": "Título original: Amordoku: casos de lógica y amor\n\n© Tu nombre\nTodos los derechos reservados (salvo los besos, que son tuyos).\n\nIlustraciones y escenarios: hechos a mano, con cariño y con código.\nPersonajes: inspirados en personas reales que no han dado su permiso para salir en un libro de asesinatos.\n\nediciones besito, un sello inventado\n\nPrimera edición: la única\nISBN: TQM-0000-0001\nImpreso con amor\n\nQueda prohibida la reproducción total o parcial de esta obra sin un beso previo.",
-  "narratorName": "Comisario Leo",
+  "narratorName": "Comisario Alex",
   "texts": {},
   "backCover": {
    "question": "¿Quién le robó el corazón a quién?",
    "answer": "TQM",
    "characterIds": [
-    "leo",
-    "ana"
+    "alex",
+    "victoria"
    ],
    "blurb": "Casos inspirados en nuestras historias: viajes, cenas, fiestas y algún que otro beso sospechoso. ¿Serás capaz de resolverlos todos?",
    "note": "Caso abierto.\nSospechosos: tú y yo."
@@ -1439,7 +1440,7 @@
   ],
   "pageNumbers": true,
   "bleed": false,
-  "narratorCharacterId": "leo",
+  "narratorCharacterId": "alex",
   "coverScenarioId": "casa-abuela"
  }
 }

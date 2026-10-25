@@ -1,7 +1,7 @@
 /**
  * Proyecto de ejemplo PÚBLICO (se sube a GitHub). Personajes inventados
- * —Ana y Leo— para que cualquiera pueda probar la app y ver cómo se define
- * un caso en código. Tu libro de verdad va en la carpeta private/.
+ * con Alex y Victoria como protagonistas, para que cualquiera pueda probar la
+ * app y ver cómo se define un caso en código. El libro completo va en private/.
  *
  *   npm run example     → regenera examples/example.project.json
  */
@@ -17,15 +17,15 @@ const ch = (id: string, name: string, gender: Gender, group: string, a: Partial<
 
 export const EXAMPLE_CHARACTERS: Character[] = [
   ch('alex', 'Alex', 'm', 'Protagonistas', {
-   bg: '#d4673f', skin: '#e2b28c', face: 'oval', weight: 0.42, jaw: 0.55, length: 0.55,
-   hair: 'curlyMedium', hairColor: '#2b1b13', facialHair: 'fade', facialHairColor: '#22150e',
-   earrings: 'doubleHoop', earringColor: '#c9ccd1', outfit: 'poloContrast', outfitColor: '#4a3427', outfitAccent: '#f1e4a6',
- }),
- ch('victoria', 'Victoria', 'f', 'Protagonistas', {
-   bg: '#5aa7b5', skin: '#f1cdb5', face: 'oval', weight: 0.05, jaw: 0.6, length: 0.7,
-   hair: 'longStraight', hairColor: '#3b2519', earrings: 'statement', earringColor: '#d4a63a',
-   necklace: 'beads', necklaceColor: '#d4a63a', outfit: 'highNeck', outfitColor: '#f6f4ef', blush: true,
- }),
+    bg: '#d4673f', skin: '#e2b28c', face: 'oval', weight: 0.42, jaw: 0.55, length: 0.55,
+    hair: 'curlyMedium', hairColor: '#2b1b13', facialHair: 'fade', facialHairColor: '#22150e',
+    earrings: 'doubleHoop', earringColor: '#c9ccd1', outfit: 'poloContrast', outfitColor: '#4a3427', outfitAccent: '#f1e4a6',
+  }),
+  ch('victoria', 'Victoria', 'f', 'Protagonistas', {
+    bg: '#5aa7b5', skin: '#f1cdb5', face: 'oval', weight: 0.05, jaw: 0.6, length: 0.7,
+    hair: 'longStraight', hairColor: '#3b2519', earrings: 'statement', earringColor: '#d4a63a',
+    necklace: 'beads', necklaceColor: '#d4a63a', outfit: 'highNeck', outfitColor: '#f6f4ef', blush: true,
+  }),
   ch('abuela', 'Abuela Rosa', 'f', 'Familia', { bg: '#f2c94c', skin: '#e8b791', hair: 'granny', hairColor: '#e6e6e6', glasses: 'round', glassesColor: '#7b4a3a', necklace: 'pearls', outfit: 'sweater', outfitColor: '#7b2a5a', weight: 0.55, face: 'round' }),
   ch('primo', 'Primo Dani', 'm', 'Familia', { bg: '#3f8f5a', skin: '#efc7a7', hair: 'messy', hairColor: '#8a5a33', outfit: 'hoodie', outfitColor: '#e76f51', outfitAccent: '#ffffff', freckles: true }),
   ch('tia', 'Tía Marta', 'f', 'Familia', { bg: '#9a5aa8', skin: '#f7dcc8', hair: 'bob', hairColor: '#b5452b', earrings: 'drop', outfit: 'vneck', outfitColor: '#2a9d8f' }),
@@ -73,7 +73,7 @@ const CASE_1: CaseDef = {
   subtitle: 'Domingo en casa de la abuela. Nunca sobra comida… salvo hoy: alguien se ha comido la última croqueta.',
   pageColor: '#e7d3e4',
   scenario: casaAbuela,
-  people: ['ana', 'leo', 'abuela', 'primo', 'perro', 'croqueta'],
+  people: ['victoria', 'alex', 'abuela', 'primo', 'perro', 'croqueta'],
   target: 'croqueta',
   culprit: 'perro',
   targetLabel: 'La croqueta.',
@@ -122,10 +122,10 @@ const restaurante = scenario({
 const CASE_2: CaseDef = {
   id: 'ej2-anillo',
   title: 'El anillo en el tiramisú',
-  subtitle: 'Leo escondió un anillo en el postre para pedirle matrimonio a Ana. Cuando llegó el tiramisú, el anillo ya no estaba.',
+  subtitle: 'Alex escondió un anillo en el postre para pedirle matrimonio a Victoria. Cuando llegó el tiramisú, el anillo ya no estaba.',
   pageColor: '#d9eaf6',
   scenario: restaurante,
-  people: ['ana', 'leo', 'camarero', 'cocinera', 'musico', 'pareja', 'anillo'],
+  people: ['victoria', 'alex', 'camarero', 'cocinera', 'musico', 'pareja', 'anillo'],
   target: 'anillo',
   culprit: 'cocinera',
   targetLabel: 'El anillo.',
@@ -134,8 +134,8 @@ const CASE_2: CaseDef = {
   answerNote: 'probando el tiramisú (y lo devolvió, tranquilos)',
   tier: 2,
   pins: [
-    { p: 'ana', rooms: ['Comedor'] },
-    { p: 'leo', rooms: ['Comedor'] },
+    { p: 'victoria', rooms: ['Comedor'] },
+    { p: 'alex', rooms: ['Comedor'] },
     { p: 'anillo', rooms: ['Cocina'] },
     { p: 'cocinera', rooms: ['Cocina'] },
   ],
@@ -147,14 +147,14 @@ export const EXAMPLE_BOOK: Partial<BookSettings> = {
   ...defaultBook(),
   title: 'Amordoku',
   subtitle: 'Acertijos de *lógica* y *amor*',
-  author: 'Leo',
-  dedication: 'Para Ana,\nmi caso favorito.',
-  narratorName: 'Comisario Leo',
-  narratorCharacterId: 'leo',
+  author: 'Alex',
+  dedication: 'Para Victoria,\nla mejor detective que conozco\n(y mi caso favorito).',
+  narratorName: 'Comisario Alex',
+  narratorCharacterId: 'alex',
   coverScenarioId: 'casa-abuela',
   coverPortraits: [
-    { characterId: 'leo', r: 1, c: 3 },
-    { characterId: 'ana', r: 4, c: 1 },
+    { characterId: 'alex', r: 1, c: 3 },
+    { characterId: 'victoria', r: 4, c: 1 },
   ],
-  backCover: { ...defaultBook().backCover, characterIds: ['leo', 'ana'] },
+  backCover: { ...defaultBook().backCover, characterIds: ['alex', 'victoria'] },
 };

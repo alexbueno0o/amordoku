@@ -13,7 +13,7 @@ const OUT = new URL('./example.project.json', import.meta.url).pathname;
 const project: Project = {
   version: 1,
   builtAt: Date.now(),
-  name: 'Amordoku de ejemplo (Ana y Leo)',
+  name: 'Amordoku de Alex y Victoria (ejemplo)',
   characters: EXAMPLE_CHARACTERS,
   scenarios: EXAMPLE_CASES.map((d) => d.scenario),
   cases: [],
