@@ -16,8 +16,16 @@ const av = (o: Partial<AvatarSpec>): AvatarSpec => ({ ...DEFAULT_AVATAR, ...o })
 const ch = (id: string, name: string, gender: Gender, group: string, a: Partial<AvatarSpec>, note?: string): Character => ({ id, name, gender, group, note, avatar: av(a) });
 
 export const EXAMPLE_CHARACTERS: Character[] = [
-  ch('ana', 'Ana', 'f', 'Protagonistas', { bg: '#5aa7b5', skin: '#efc7a7', hair: 'longWavy', hairColor: '#5a3a24', earrings: 'hoop', earringColor: '#d4af37', outfit: 'blouse', outfitColor: '#f2e8cf', blush: true, jaw: 0.5 }),
-  ch('leo', 'Leo', 'm', 'Protagonistas', { bg: '#d4673f', skin: '#dba27a', hair: 'curlyShort', hairColor: '#1f1712', facialHair: 'short', facialHairColor: '#1f1712', outfit: 'polo', outfitColor: '#1d3557' }),
+  ch('alex', 'Alex', 'm', 'Protagonistas', {
+   bg: '#d4673f', skin: '#e2b28c', face: 'oval', weight: 0.42, jaw: 0.55, length: 0.55,
+   hair: 'curlyMedium', hairColor: '#2b1b13', facialHair: 'fade', facialHairColor: '#22150e',
+   earrings: 'doubleHoop', earringColor: '#c9ccd1', outfit: 'poloContrast', outfitColor: '#4a3427', outfitAccent: '#f1e4a6',
+ }),
+ ch('victoria', 'Victoria', 'f', 'Protagonistas', {
+   bg: '#5aa7b5', skin: '#f1cdb5', face: 'oval', weight: 0.05, jaw: 0.6, length: 0.7,
+   hair: 'longStraight', hairColor: '#3b2519', earrings: 'statement', earringColor: '#d4a63a',
+   necklace: 'beads', necklaceColor: '#d4a63a', outfit: 'highNeck', outfitColor: '#f6f4ef', blush: true,
+ }),
   ch('abuela', 'Abuela Rosa', 'f', 'Familia', { bg: '#f2c94c', skin: '#e8b791', hair: 'granny', hairColor: '#e6e6e6', glasses: 'round', glassesColor: '#7b4a3a', necklace: 'pearls', outfit: 'sweater', outfitColor: '#7b2a5a', weight: 0.55, face: 'round' }),
   ch('primo', 'Primo Dani', 'm', 'Familia', { bg: '#3f8f5a', skin: '#efc7a7', hair: 'messy', hairColor: '#8a5a33', outfit: 'hoodie', outfitColor: '#e76f51', outfitAccent: '#ffffff', freckles: true }),
   ch('tia', 'Tía Marta', 'f', 'Familia', { bg: '#9a5aa8', skin: '#f7dcc8', hair: 'bob', hairColor: '#b5452b', earrings: 'drop', outfit: 'vneck', outfitColor: '#2a9d8f' }),

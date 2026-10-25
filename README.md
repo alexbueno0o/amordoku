@@ -10,7 +10,7 @@ Amordoku es una app web gratuita que funciona en tu ordenador. Con ella puedes:
 - 📖 **Maquetar el libro completo**: portada, contraportada, instrucciones, los casos en el orden que quieras y las soluciones explicadas al final, en el mismo formato que los libros originales (12,7 × 19,05 cm).
 - 🖨️ **Descargarlo en PDF** listo para la copistería, o imprimir un solo caso con su solución.
 
-> El repositorio incluye un **libro de ejemplo** con dos personajes inventados (Ana y Leo). Tu libro de verdad va en una carpeta privada que **nunca se sube a internet** (ver más abajo).
+> > El repositorio incluye un **libro de ejemplo** protagonizado por Alex y Victoria.
 
 | Montar un murdoku | Crear personajes |
 | --- | --- |
@@ -175,7 +175,7 @@ Alternativa: servicios de impresión bajo demanda por internet permiten imprimir
 
 ```
 amordoku/
-├── examples/            ← ejemplo PÚBLICO (Ana y Leo). Se sube a GitHub.
+├── examples/            ← ejemplo PÚBLICO (Alex y Victoria). Se sube a GitHub.
 └── private/             ← TU libro (fotos, nombres, recuerdos). Está en .gitignore:
     ├── characters.ts       NO se sube nunca.
     ├── book.ts
